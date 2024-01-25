@@ -1,0 +1,167 @@
+/* -- HEADER STYLES -- */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #b5b7bb;
+    font-family: 'Press Start 2P';
+    overflow: hidden;
+}
+
+div.header {
+    width: 100%;
+    text-align: center;
+}
+
+.title-text {
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 1024px;
+    margin: 10px auto;
+    padding: 1px 0 1px 0;
+    border-radius: 10px;
+    color: white;
+}
+
+/* -- END HEADER STYLES -- */
+
+/* -- MODAL STYLES -- */
+
+.modal {
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px 25px 30px 25px;
+    left: 50%;
+    top: 15.5%;
+    transform: translateX(-50%);
+}
+
+.modal-header {
+    text-align: center;
+}
+
+.modal-text p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.modal-button {
+    text-align: center;
+}
+
+.modal-button button {
+    font-family: inherit;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* -- END MODAL STYLES -- */
+
+/* -- HEALTH/TIMER/SCORE COUNTER STYLES -- */
+
+.counter-wrap {
+    width: 100%;
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    opacity: 0%;
+}
+
+.timer-wrap {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    width: 275px;
+    margin-right: 75px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    
+}
+
+.score-wrap {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    width: 275px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    color: #ffbf00;
+}
+
+.health-wrap {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    width: 275px;
+    margin-left: 75px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    color: rgb(133,0,20)
+}
+
+/* -- END HEALTH/TIMER/SCORE COUNTER STYLES -- */
+
+/* -- GENERAL TEXT STYLING -- */
+
+.underline {
+    text-decoration: underline;
+}
+
+/* -- END GENERAL TEXT STYLING -- */
+
+/* -- GENERAL ANIMATION STYLES -- */
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes fadeOutAnimation {
+    0% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+.fadeInAnimation {
+    animation: fadeInAnimation;
+    animation-duration: 1.25s;
+    animation-fill-mode: forwards;
+}
+
+.fadeOutAnimation {
+    animation: fadeOutAnimation;
+    animation-duration: 1.25s;
+    animation-fill-mode: forwards;
+}
+
+/* -- END GENERAL ANIMATION STYLES -- */
+
+/* -- CANVAS STYLES -- */
+
+.canvas {
+    /*border: 1px solid black;
+    border-radius: 10px;*/
+}
+
+.canvas-wrap {
+    width: 100%;
+    text-align: center;
+}
+
+/* -- END CANVAS STYLES -- */
